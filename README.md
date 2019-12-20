@@ -30,13 +30,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+====================================================================================================================================================
+Answer1 : .forEach methos is just an iterator through array similar to for loop iteration , while .map returns new array of the same size of mapped one and    itrations count equals to the mapped array length and orderred from index zero to length-1 , each iteration must return an object to be pushed in the new array
+====================================================================================================================================================
+
 2. What is the difference between a function and a method?
 
+====================================================================================================================================================
+Answer2 : Function is aglobal reusable routine which accepts arguments and returns something and not related to any object while method can be called only with instances of its specefic class or prototype to perform processing related to this object and also can receive arguments and returns something
+====================================================================================================================================================
+
 3. What is closure?
+====================================================================================================================================================
+Answer3: Closure is a function which is encapsulated inside another function so that closure is allowed to access parent function variables and can't be invoked outside parent scope except if parent function returns it to the caller of parent in this case it can be invoked outside parent scope.
+====================================================================================================================================================
 
 4. Describe the four rules of the 'this' keyword.
 
+====================================================================================================================================================
+Answer4 :
+Principle 1: Window/Global Object Binding
+Principle 2: Implicit Binding
+Principle 3: New binding
+Principle 4: Explicit binding
+====================================================================================================================================================
+
 5. Why do we need super() in an extended class?
+
+====================================================================================================================================================
+Answer5: we need super() inside extended class connstructor to invoke parent class constructor passing proper arguments to it to initialize its properties
+====================================================================================================================================================
+
 
 ## Project Set up
 
